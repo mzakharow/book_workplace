@@ -260,7 +260,7 @@
                             {% for user in object.user.all %}
                                 <tr>
                                     <th scope="row"></th>
-                                    <td><h4>{{ user.username }}</h4></td>
+                                    <td><h6>{{ user.username }}</h6></td>
                                 </tr>
                             {% endfor %}
                             </tbody>
@@ -275,8 +275,8 @@
                             </tfoot>
                         </table>
 
-                        <p><h5>Свободных мест: {{ object.free_places }}</h5></p>
-                        <p><h5>Дежурные: </h5></p>
+                        <p><h6>Свободных мест: {{ object.free_places }}</h6></p>
+                        <p><h6>Дежурные: </h6></p>
                         <ul style='list-style-type:square;'>
                             <li>Администратор: -</li>
                             <li>Аналитик: -</li>
